@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* footer-section-start */
+.bg-color{
+        background-color: bisque;
+}
+
+#footer {    
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-column,
+.footer-column-1 {
+    width: 250px;
+    height: 190px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-1{
+    align-items: center;
+}
+
+.footer-column h2,
+.footer-column-1 h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-column ul li {
+    list-style: none;
+    padding: 5px 0px;
+
+}
+
+.footer-column ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-column ul li a:hover {
+    color: brown;
+}
+
+.hidden h2 {
+    visibility: hidden;
+}
+
+.footer-column p {
+    line-height: 22px;
+}
+
+.footer-icons ul{
+    display: flex;
+}
+
+.footer-icons ul li {
+    list-style: none;
+}
+
+.footer-icons ul li a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #4e5a62;
+}
+
+.footer-icons ul li a i{
+    font-size: 20px;
+}
+
+.footer-icons ul li a:hover {
+    color: brown;
+}
+
+
+
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 40px;
+    background: rgb(26, 25, 25);
+    color: white;
+    line-height: 40px;
+}
+
+
+/* footer-section-end */
