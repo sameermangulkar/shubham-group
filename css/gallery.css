@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* gallery-section-start */
+#gallery {
+    width: 100vw;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-title h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.gallery-title h1::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: tomato;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gallery-img-box {
+    width: 33.33%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gallery-img-box img {
+    height: 220px;
+    width: 408px;
+    border-radius: 25px;
+}
+
+/* gallery-section-end */
