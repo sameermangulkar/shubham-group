@@ -33,7 +33,9 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url(../image/home-page-bg-1.jpg);
+    background: #acac98;
+    opacity: 0.6;
+    /* background-image: url(../image/home-page-bg.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
@@ -43,7 +45,7 @@ body {
 
 .header-icon {
     width: 100%;
-    height: 40px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
@@ -59,7 +61,7 @@ body {
 .icons ul li a {
     padding-right: 15px;
     text-decoration: none;
-    color: #4e5a62;
+    color: rgb(26, 24, 24);
 }
 
 .icons ul li a:hover {
@@ -72,38 +74,45 @@ body {
 
 .header-nav {
     width: 100%;
-    height: 100px;
+    height: 200px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-
+.header-nav img{
+    height: 190px;
+}
 .header-buttons {
-    width: 375px;
+    width: 700px;
     display: flex;
 }
 
 .header-logo {
-    width: 250px;
+    width: 300px;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: center; */
 }
 
-.header-buttons ul {
+.header-buttons ul,
+.header-buttons-1 ul {
     display: flex;
 }
 
-.header-buttons ul li {
+.header-buttons ul li,
+.header-buttons-1 ul li {
     list-style: none;
     font-weight: 600;
 }
 
-.header-buttons ul li a {
+.header-buttons ul li a,
+.header-buttons-1 ul li a {
     padding-right: 30px;
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 
-.header-buttons ul li a:hover{
+.header-buttons ul li a:hover,
+.header-buttons-1 ul li a:hover {
     color: brown;
 }
 
@@ -112,32 +121,42 @@ body {
 }
 
 .header-logo ul li img {
+    
     height: 90px;
+    /* transform: translateY(-32px); */
 }
 
-.flex-end {
+.header-buttons-1 {
+    width: 250px;
     display: flex;
     justify-content: flex-end;
 }
 
 
 .text {
-    width: 60%;
+    width: 100%;
     height: 300px;
     padding-left: 20px;
+    color: rgb(26, 24, 24);
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 .text h1 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.text h2{
     font-size: 22px;
-    font-weight: 500;
     margin-bottom: 5px;
 }
 
 .text h5 {
+    font-size: 14px;
     font-weight: normal;
     margin-bottom: 15px;
 }
@@ -154,7 +173,7 @@ body {
     text-decoration: none;
     background: rgb(202, 165, 30);
     border-radius: 50px;
-    color: #4e5a62;
+    color: black;
 }
 
 .text span a:hover {
